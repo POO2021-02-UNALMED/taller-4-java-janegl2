@@ -9,8 +9,7 @@ public class Grupo {
     String horario;
 
     Grupo(int cantidadEstudiantes, Persona profesor, Asignatura asignatura, int codigo, String horario) {
-       Persona[] personas = new Persona[cantidadEstudiantes];
-       this(personas, profesor, asignatura, codigo, horario);
+       this(new Persona[cantidadEstudiantes], profesor, asignatura, codigo, horario);
     }
     
     Grupo(Persona[] estudiantes, Persona profesor, Asignatura asignatura, int codigo, String horario) {
