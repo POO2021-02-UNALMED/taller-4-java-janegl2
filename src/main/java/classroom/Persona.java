@@ -16,7 +16,7 @@ public class Persona {
     }
 
     Persona(String nombre) {
-        this(nombre,1)
+        this(nombre,1);
     }   
     
     Persona(long cedula) {
