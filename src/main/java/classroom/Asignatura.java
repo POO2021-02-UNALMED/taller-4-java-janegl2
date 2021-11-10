@@ -12,10 +12,6 @@ public class Asignatura {
         this(0);
     }
 
-    Asignatura(int codigoInterno) {
-        this("Sin nombre", codigoInterno, 0);
-    }
-
     Asignatura(int codigoExterno) {
         this("Sin nombre", 0, codigoExterno);
     }
@@ -36,7 +32,7 @@ public class Asignatura {
         this.nombre = nombre;
     }
 
-    void cambiarDatos(int codigoInterno) {
+    void setCodigoInterno(int codigoInterno) {
         this.codigoInterno = codigoInterno;
     }
 
